@@ -1,8 +1,7 @@
-function component() {
-  const element = document.createElement('div');
-  element.innerHTML = 'hello world';
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-  return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
