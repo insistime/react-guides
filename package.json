@@ -5,7 +5,8 @@
   "description": "react guides",
   "keywords": [],
   "scripts": {
-    "start": "webpack serve --open --config webpack.config.js",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
     "prepare": "husky install"
   },
   "repository": {
