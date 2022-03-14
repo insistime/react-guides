@@ -1,15 +1,14 @@
 const path = require('path');
-const webpack = require('webpack');
-
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/index.js',
+    app: path.resolve(__dirname, '../src/index.js'),
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'react guides',
+      template: path.resolve(__dirname, './template.html')
     }),
   ],
   module: {
@@ -18,7 +17,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../dist'),
     clean: true,
   },
 };
