@@ -5,7 +5,7 @@ var path = require('path');
  */
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, '../src/12-react.js'),
+    app: path.resolve(__dirname, '../src/13-error.js'),
   },
   output: {
     filename  : '[name].bundle.js',
