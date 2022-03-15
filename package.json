@@ -6,8 +6,7 @@
   "keywords": [],
   "scripts": {
     "dev": "qwebpack dev ./webpack/qiao.webpack.js",
-    "build": "qwebpack build ./webpack/qiao.webpack.js",
-    "prepare": "husky install"
+    "build": "qwebpack build ./webpack/qiao.webpack.js"
   },
   "author": {
     "name": "qiaowenbin",
@@ -19,9 +18,6 @@
     "url": "git+https://github.com/insistime/react-guides"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
-    "husky": "^7.0.4",
     "qiao-webpack": "^0.0.5"
   },
   "dependencies": {
