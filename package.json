@@ -5,32 +5,24 @@
   "description": "react guides",
   "keywords": [],
   "scripts": {
-    "start": "webpack serve --open --config ./webpack/webpack.dev.js",
-    "build": "webpack --config ./webpack/webpack.prod.js",
-    "build1": "qwebpack build ./webpack/qiao.webpack.js",
+    "dev": "qwebpack dev ./webpack/qiao.webpack.js",
+    "build": "qwebpack build ./webpack/qiao.webpack.js",
     "prepare": "husky install"
+  },
+  "author": {
+    "name": "qiaowenbin",
+    "email": "npm@insistime.com",
+    "url": "https://insistime.com"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/insistime/react-guides"
   },
-  "author": "uikoo9",
-  "bugs": {
-    "url": "https://github.com/insistime/react-guides/issues"
-  },
-  "homepage": "https://github.com/insistime/react-guides#readme",
   "devDependencies": {
-    "@babel/core": "^7.17.5",
-    "@babel/preset-react": "^7.16.7",
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
-    "babel-loader": "^8.2.3",
-    "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
-    "qiao-webpack": "^0.0.3",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0"
+    "qiao-webpack": "^0.0.5"
   },
   "dependencies": {
     "react": "^17.0.2",
