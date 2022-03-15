@@ -15,7 +15,6 @@ module.exports = {
   plugins: [
     {
       type    : 'html',
-      title   : 'react guides',
       inject  : 'body',
       template: path.resolve(__dirname, './template.html')
     }
