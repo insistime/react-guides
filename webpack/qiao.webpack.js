@@ -1,9 +1,16 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
 
+/**
+ * qiao.webpack.js
+ */
 module.exports = {
   entry: {
     app: path.resolve(__dirname, '../src/index.js'),
+  },
+  output: {
+    filename  : '[name].bundle.js',
+    path      : path.resolve(__dirname, '../dist'),
+    clean     : true,
   },
   plugins: [
     {
@@ -14,18 +21,6 @@ module.exports = {
     }
   ],
   module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        options: { presets: ["@babel/preset-react"] }
-      },
-    ],
-  },
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, '../dist'),
-    clean: true,
+    rules: [],
   },
 };
