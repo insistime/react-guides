@@ -4,6 +4,7 @@
 ### 0.0.2.20220315
 1. add qiao-webpack
 2. hello world
+3. react guides ok
 
 ### 0.0.1.20220314
 1. init project
