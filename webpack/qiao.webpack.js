@@ -5,7 +5,7 @@ var path = require('path');
  */
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, '../src/tick.js'),
+    app: path.resolve(__dirname, '../src/component.js'),
   },
   output: {
     filename  : '[name].bundle.js',
