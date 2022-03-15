@@ -5,7 +5,7 @@ var path = require('path');
  */
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, '../src/flavor.js'),
+    app: path.resolve(__dirname, '../src/temperature.js'),
   },
   output: {
     filename  : '[name].bundle.js',
