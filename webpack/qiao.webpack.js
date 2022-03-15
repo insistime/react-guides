@@ -5,7 +5,7 @@ var path = require('path');
  */
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, '../src/toggle.js'),
+    app: path.resolve(__dirname, '../src/login-control.js'),
   },
   output: {
     filename  : '[name].bundle.js',
